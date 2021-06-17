@@ -28,4 +28,26 @@ as.character(x)
 x<- list(1,"a",True, 1+4i)
 print(x)
 
+# Matrices:
+
+m<- matrix(nrow = 2,ncol=3)
+m
+dim(m)
+m<- matrix(1:6, nrow = 2,ncol=3)
+m<- 1:10
+dim(m)<-c(2,5)
+
+x<- 1:3
+y<- 10:12
+
+cbind(x,y)
+rbind(x,y)
+
+# Factor:
+# can be ordered or unordered
+
+
+
+
+
 
